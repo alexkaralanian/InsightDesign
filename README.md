@@ -3,7 +3,8 @@
 This is a new project I am just getting started with.
 It's a mock desing firm landing page that will feature:
 
-* Modern, cutting-edge styling and design
+* Modern, cutting-edge styling
+* Responsive design
 * CSS Animations
 * Parralax scrolling
 
