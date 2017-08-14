@@ -7,12 +7,10 @@ It's a mock desing firm landing page that will feature:
 * Responsive design
 * CSS Animations
 * Parralax scrolling
-
 * Mocks w/ Balsmiq
 * Bootstrap 4
 * Animate.css
 * Google Fonts
-* Font Awesome.
-
+* Font Awesome
 
 Eventually this design will be integrated into a full React/Redux application but for now am only using basic CSS3 and HTML5.
