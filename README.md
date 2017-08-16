@@ -10,5 +10,6 @@ It's a mock desing firm landing page that will feature:
 * Mocks w/ Balsmiq
 * Bootstrap 4
 * Animate.css
+* Wow.js
 * Google Fonts
 * Font Awesome
