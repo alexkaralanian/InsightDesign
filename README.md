@@ -20,6 +20,6 @@ It's a desing firm landing page that will feature:
 * Digital Ocean Droplet
 * Custome domain / DNS routing
 * Linux Ubuntu OS
-* Nginx reverse proxy server
+* Nginx
 
 
