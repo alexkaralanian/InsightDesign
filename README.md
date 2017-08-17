@@ -1,7 +1,7 @@
 # Insight Design
 
 This is a new project I am just getting started with.
-It's a mock desing firm landing page that will feature:
+It's a desing firm landing page that will feature:
 
 * Modern, cutting-edge styling
 * Responsive design
@@ -10,5 +10,16 @@ It's a mock desing firm landing page that will feature:
 * Mocks w/ Balsmiq
 * Bootstrap 4
 * Animate.css
+* Wow.js
 * Google Fonts
 * Font Awesome
+
+
+# Backend / Deployment
+* Node/Express server
+* Digital Ocean Droplet
+* Custome domain / DNS routing
+* Linux Ubuntu OS
+* Nginx reverse proxy server
+
+
