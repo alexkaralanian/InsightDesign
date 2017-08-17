@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/alexkaralanian/insightDesign#readme",
   "dependencies": {
-    "body-parser": "^1.17.2"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
   },
   "devDependencies": {
     "morgan": "^1.8.2",
