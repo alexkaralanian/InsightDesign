@@ -14,11 +14,9 @@ It's a desing firm landing page that will feature:
 * Google Fonts
 * Font Awesome
 
-
-# Backend / Deployment
-* Node/Express server
+# Backend
+* Basic Node/Express server
 * Digital Ocean Droplet
-* Custome domain / DNS routing
 * Linux Ubuntu OS
 * Nginx
 
