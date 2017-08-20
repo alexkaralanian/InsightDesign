@@ -1,11 +1,11 @@
 {
   "name": "insight-design",
   "version": "1.0.0",
-  "description": "This is a new project I am just getting started with. It's a mock desing firm landing page that will feature:",
+  "description": "Design firm landing page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "deploy": "gulp build && forever stopall && forever start server >> /var/log/forever/forever.log"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
     "express": "^4.15.4"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
     "morgan": "^1.8.2",
     "nodemon": "^1.11.0"
   }
