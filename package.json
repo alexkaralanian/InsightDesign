@@ -22,7 +22,15 @@
     "express": "^4.15.4"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "morgan": "^1.8.2",
     "nodemon": "^1.11.0"
