@@ -7,14 +7,14 @@ const path = require('path');
 
 app.use(morgan('dev'))
 
-app.use(express.static(path.join(__dirname, '../public')))
-
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(bodyParser.json())
 
-app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname, '../src/index.html'));
+app.use('/static', express.static('./public'));
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, '../index.html'));
 })
 
 app.use(function (err, req, res, next) {
