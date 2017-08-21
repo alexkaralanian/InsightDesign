@@ -1,7 +1,6 @@
 # Insight Design
 
-This is a new project I am just getting started with.
-It's a desing firm landing page that will feature:
+This is a desing firm landing page that features:
 
 * Modern, cutting-edge styling
 * Responsive design
@@ -14,8 +13,8 @@ It's a desing firm landing page that will feature:
 * Google Fonts
 * Font Awesome
 
-# Backend
-* Basic Node/Express server
+* Gulp
+* Node/Express server
 * Digital Ocean Droplet
 * Linux Ubuntu OS
 * Nginx
