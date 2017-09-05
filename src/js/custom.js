@@ -16,6 +16,12 @@ $(function(){
 });
 
 $(function(){
-  $("#team-members").owlCarousel();
+  $("#team-members").owlCarousel({
+    items: 3,
+    autoplay: true,
+    autoplayHoverPause: true,
+    smartSpeed: 700,
+    loop: true
+  });
 });
 
