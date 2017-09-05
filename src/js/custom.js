@@ -14,3 +14,8 @@ $(function(){
     }
   });
 });
+
+$(function(){
+  $("#team-members").owlCarousel();
+});
+

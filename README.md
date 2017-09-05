@@ -12,8 +12,9 @@ This is a desing firm landing page that features:
 * Wow.js
 * Google Fonts
 * Font Awesome
+* Magnific Popup
 
-* Gulp
+* Gulp.js
 * Node/Express server
 * Digital Ocean Droplet
 * Linux Ubuntu OS
