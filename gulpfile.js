@@ -22,7 +22,7 @@ gulp.task('userScripts', function() {
 });
 
 gulp.task('scripts', function() {
-  gulp.src(['./src/js/jquery.min.js', './src/js/jquery.magnific-popup.min.js', './src/js/bootstrap.min.js', './src/js/wow.min.js'])
+  gulp.src(['./src/js/jquery.min.js', './src/js/jquery.magnific-popup.min.js', './src/js/bootstrap.min.js', './src/js/wow.min.js', './src/js/owl.carousel.min.js'])
     .pipe(gulp.dest(jsDest));
 });
 
@@ -35,7 +35,7 @@ gulp.task('userStyles', function() {
 });
 
 gulp.task('styles', function() {
-  gulp.src(['./src/css/font_awesome/css/font-awesome.min.css', './src/css/bootstrap.min.css'])
+  gulp.src(['./src/css/font_awesome/css/font-awesome.min.css', './src/css/bootstrap.min.css', './src/css/owl.carousel.min.css', './src/css/owl.theme.default.min.css'])
     .pipe(gulp.dest(cssDest));
 });
 
