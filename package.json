@@ -4,7 +4,7 @@
   "description": "Design firm landing page",
   "main": "server/index.js",
   "scripts": {
-    "start": "nodemon server",
+    "start": "gulp build && nodemon server",
     "deploy": "gulp build && forever stopall && forever start server >> /var/log/forever/forever.log"
   },
   "repository": "https://github.com/alexkaralanian/InsightDesign.git",
