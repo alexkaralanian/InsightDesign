@@ -5,13 +5,15 @@ const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const minifyCSS = require('gulp-clean-css');
 const del = require('del');
-// const browserSync = require('browser-sync').create();
+const browserSync = require('browser-sync').create();
 
 const imgSrc = './src/img/**/*'
 const imgDest = './public/img'
 const jsDest = './public/js'
 const cssDest = './public/css'
 const fontDest = './public/fonts'
+
+
 
 // SCRIPTS
 gulp.task('userScripts', function() {
@@ -68,17 +70,14 @@ gulp.task('fonts', function() {
 });
 
 
-// // BROWSER SYNC
-// gulp.task('browserSync', function() {
-//    browserSync.init({
-//       server: {
-//          baseDir: 'build'
-//       },
-//    })
-// })
-
-// WATCH
 gulp.task('default', ['userStyles', 'userScripts'], function() {
+
+  browserSync.init({
+        server: {
+            baseDir: '/'
+        },
+        proxy: 'localhost:3001'
+    });
 
    gulp.watch('src/css/styles.css', function() {
       gulp.run('userStyles');
@@ -87,7 +86,6 @@ gulp.task('default', ['userStyles', 'userScripts'], function() {
       gulp.run('userScripts');
    })
 });
-
 
 // BUILD
 gulp.task('build', ['images', 'userStyles', 'styles', 'animate.css', 'userScripts', 'scripts', 'fonts', 'magnific-popup.css'], function() {

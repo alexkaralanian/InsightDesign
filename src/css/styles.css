@@ -33,6 +33,43 @@ p {
 
 /* ============================================================
 
+NAVINGATION
+
+=============================================================== */
+
+/*.navbar {
+  padding: 20px 0;
+}*/
+
+.nav-background {
+  background: rgba(0,0,0,0.7);
+  padding: 7px 0;
+}
+
+/*.nav-wrapper {
+  padding: 0 85px;
+}*/
+
+/*.navbar-nav {
+  float: right;
+}*/
+
+/*.nav-item  {
+  color: #fff;
+  font-style: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}*/
+
+.nav-link:hover, .nav-link:focus {
+  color: #34c6d3;
+}
+
+
+
+/* ============================================================
+
 HOME
 
 =============================================================== */
