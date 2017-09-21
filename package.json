@@ -5,7 +5,8 @@
   "main": "server/index.js",
   "scripts": {
     "start": "gulp build && nodemon server",
-    "deploy": "gulp build && forever stopall && forever start server >> /var/log/forever/forever.log"
+    "deploy": "gulp build && forever stopall && forever start server >> /var/log/forever/forever.log",
+    "test": "echo \"Error: no test specified\" "
   },
   "repository": "https://github.com/alexkaralanian/InsightDesign.git",
   "author": "Alex Karalanian <alex.karalanian@gmail.com>",
