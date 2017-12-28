@@ -13,8 +13,6 @@ const jsDest = './public/js'
 const cssDest = './public/css'
 const fontDest = './public/fonts'
 
-
-
 // SCRIPTS
 gulp.task('userScripts', function() {
   gulp.src(['./src/js/custom.js'])
@@ -24,13 +22,13 @@ gulp.task('userScripts', function() {
 });
 
 gulp.task('scripts', function() {
-  gulp.src(['./src/js/jquery.min.js', './src/js/jquery.magnific-popup.min.js', './src/js/bootstrap.min.js', './src/js/wow.min.js', './src/js/owl.carousel.min.js'])
+  gulp.src(['./src/js/jquery.min.js', './src/js/jquery.magnific-popup.min.js', './src/js/bootstrap.min.js', './src/js/wow.min.js', './src/js/owl.carousel.min.js', './src/js/jquery.waypoints.min.js', './src/js/jquery.easing.1.3.js', './src/js/jquery.counterup.min.js'])
     .pipe(gulp.dest(jsDest));
 });
 
 // STYLES
 gulp.task('userStyles', function() {
-  gulp.src(['./src/css/styles.css'])
+  gulp.src(['./src/css/styles.css', './src/css/responsive.css'])
     .pipe(concat('main.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest(cssDest));
@@ -54,6 +52,7 @@ gulp.task('magnific-popup.css', function() {
     .pipe(minifyCSS())
     .pipe(gulp.dest(cssDest));
 });
+
 
 // IMAGES
 gulp.task('images', function() {
